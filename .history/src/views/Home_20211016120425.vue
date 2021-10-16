@@ -9,9 +9,7 @@
 import BlogPost from "../components/BlogPost.vue"
 export default {
   name: "Home",
-  components: {
-    BlogPost,
-  },
+  components: {},
   data() {
       return {
       welcomeScreen: {

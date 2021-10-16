@@ -9,9 +9,7 @@
 import BlogPost from "../components/BlogPost.vue"
 export default {
   name: "Home",
-  components: {
-    BlogPost,
-  },
+  components: {},
   data() {
       return {
       welcomeScreen: {
@@ -25,7 +23,7 @@ export default {
         {
           title: "This is a Filler Title!",
           blogHTML: "This is a filler blog post title!",
-          blogCoverPhoto: "beautiful-stories",
+          blogCoverPhoto: "beatiful-stories",
         },
         {
           title: "This is a Filler Title!",
