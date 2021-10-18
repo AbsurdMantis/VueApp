@@ -15,11 +15,11 @@
       </div>
     </div>
     <div class="blog-photo">
-        <img v-if="post.welcomeScreen" :src="require('../assets/blogPhotos/${post.photo}.jpg')" alt="Image not avaiable" />
-        <img v-else :src="require('../assets/blogPhotos/${post.blogCoverPhoto}.jpg')" alt="Image not avaiable" />
+        <img v-if="post.welcomeScreen" :src="requite('../assets/blogPhotos/${post.photo}.jpg')" alt="Image not avaiable" />
+        <img v-else :src="requite('../assets/blogPhotos/${post.blogCoverPhoto}.jpg')" alt="Image not avaiable" />
       </div><div class="blog-photo">
-        <img v-if="post.welcomeScreen" :src="require('../assets/blogPhotos/${post.photo}.jpg')" alt="Image not avaiable" />
-        <img v-else :src="require('../assets/blogPhotos/${post.blogCoverPhoto}.jpg')" alt="Image not avaiable" />
+        <img v-if="post.welcomeScreen" :src="requite('../assets/blogPhotos/${post.photo}.jpg')" alt="Image not avaiable" />
+        <img v-else :src="requite('../assets/blogPhotos/${post.blogCoverPhoto}.jpg')" alt="Image not avaiable" />
       </div>
   </div>
 </template>
