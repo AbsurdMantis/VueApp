@@ -9,13 +9,15 @@
             <div class="inputs">
                 <div class="input">
                     <input type="text" placeholder="First Name" v-model="firstName">
+                    <email class="icon" />
                 </div>
                 <div class="input">
                     <input type="text" placeholder="Last Name" v-model="lastName">
+                    <email class="icon" />
                 </div>
                 <div class="input">
                     <input type="text" placeholder="Username" v-model="username">
-                    <user class="icon" />
+                    <email class="icon" />
                 </div>
                 <div class="input">
                     <input type="text" placeholder="Email" v-model="email">
