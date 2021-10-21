@@ -3,9 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import Vue2Editor from "vue2-editor";
-import firebase from "firebase/compat/app";
-import "firebase/compat/auth";
-
+import firebase from 'firebase/compat/app'
+import 'firebase/compat/auth'
 
 Vue.use(Vue2Editor);
 

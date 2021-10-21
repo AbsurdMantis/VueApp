@@ -6,6 +6,9 @@ import Vue2Editor from "vue2-editor";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
+
 
 Vue.use(Vue2Editor);
 

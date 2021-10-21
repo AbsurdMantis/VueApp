@@ -3,7 +3,7 @@
         <div class="container">
             <div class="left">
                 <div class="col-1">
-                    <router-link class="header" :to="{ name: 'Home' }">FireBLogs</router-link>
+                    <router-link class="header" :to="{ name: 'home' }">FireBLogs</router-link>
                     <ul>
                         <li>
                             <a href="#"><youTube class="svg-icon"/>></a>
@@ -21,10 +21,10 @@
                 </div>
                 <div class="col-2">
                     <ul>
-                        <router-link class="link" :to="{ name: 'Home'}">Home</router-link>
-                        <router-link class="link" :to="{ name: 'Home'}">Blog</router-link>
-                        <router-link v-if="user" class="link" :to="{ name:'Newpost' }">Create Post</router-link>
-                        <router-link v-if="!user" class="link" :to="{ name:'Login' }">Log In / Register</router-link>
+                        <router-link class="link" :to="{ name: 'home'}">Home</router-link>
+                        <router-link class="link" :to="{ name: 'home'}">Blog</router-link>
+                        <router-link v-if="user" class="link" :to="{ name:'newpost' }">Create Post</router-link>
+                        <router-link v-if="!user" class="link" :to="{ name:'login' }">Log In / Register</router-link>
                     </ul>
                 </div>
             </div>
@@ -40,9 +40,6 @@ import youTube from "../assets/Icons/youtube-brands.svg"
 import twitter from "../assets/Icons/twitter-brands.svg"
 import instagram from "../assets/Icons/instagram-brands.svg"
 import linkedin from "../assets/Icons/linkedin-brands.svg"
-import Login from "../components/Login.vue"
-import Home from "../components/Home.vue"
-
 export default {
     name: "footer-vue",
     components: {
@@ -50,8 +47,6 @@ export default {
         twitter,
         instagram,
         linkedin,
-        Home,
-        Login,
     },
 };
 </script>

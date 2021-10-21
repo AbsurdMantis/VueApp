@@ -6,7 +6,6 @@ import Vue2Editor from "vue2-editor";
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 
-
 Vue.use(Vue2Editor);
 
 Vue.config.productionTip = false;
